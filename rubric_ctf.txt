@@ -1,0 +1,27 @@
+1.  Learning objective
+How focused is the learning objective of the challenge?
+Does it address a core concept from the course?
+What is the value of the pedagogy?
+
+2.  Creativity
+Does the assignment use a novel technique or teach a new topic?
+
+3.  Code
+What is the quantity of functionality within the code?  What is the
+quality of the code?  Does the code force the student to apply
+a targeted concept in order to solve?  Does the code generate metamorphic
+binaries?
+
+4.  Difficulty
+Is the description sufficiently clear so that the level can be solved
+in under 60 minutes?
+
+5.  Format
+Does the level meet the formating guidelines?  Does the level follow the
+naming convention that includes the chapter it is derived from and a
+descriptive name of the concept it is teaching?  Does the build.zsh script
+take a list of usernames and build a 32-bit binary for each within
+the directory obj/<username> as the template does?
+
+6.  Walkthrough
+Does the screencast explain the level's learning objective and walk-through its code thoroughly? Does the screencast perform a demonstration of the steps required by someone to solve the level using the intended method?

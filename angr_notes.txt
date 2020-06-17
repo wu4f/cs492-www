@@ -1,0 +1,19 @@
+Errata for docker:
+    Earlier versions of radare2 put the graphical disassembler in a web browser.
+    To allow this, the docker run command is the following:
+
+    sudo docker run -it --net=host -e DISPLAY -v /home/wuchang/angr_ctf:/home/angr/angr_ctf -v /tmp/.X11-unix wuchangfeng/angr bash
+
+    Then on the host, do an "xauth list" to find X windows cookie
+    Should look like
+      "mashimaro/unix:0  MIT-MAGIC-COOKIE-1  80bc8327c1745e110807be4a7311d7c6"
+    Then in docker container, do an
+      xauth add mashimaro/unix:0  MIT-MAGIC-COOKIE-1  80bc8327c1745e110807be4a7311d7c6
+    Ignore file does not exist message and run firefox.  Browser should appear on host
+
+Errata for installation on linuxlab
+
+  # Assumes python-dev libffi-dev build-essential virtualenvwrapper python-pip
+  #   gcc-multilib are all installed.
+  # Remove ==7.7.9.21 if you want to run latest angr
+  virtualenv env && source env/bin/activate && pip install -I --no-binary :all: angr==7.7.9.21

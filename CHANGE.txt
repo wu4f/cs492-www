@@ -1,0 +1,14 @@
+Add to Evasions
+  https://evasions.checkpoint.com/
+
+Add to VM/Hypervisor malware
+  https://www.zdnet.com/article/snatch-ransomware-reboots-pcs-in-windows-safe-mode-to-bypass-antivirus-apps/
+
+Add LinuxTools somewhere?
+  file (make sure you're 32-bit!)
+  strings
+  xxd (hex dump)  -> xxd -r
+
+Homeworks
+	Add sleeps and larger passcodes to MetaCTF homework binaries
+	Ensure strings do not overlap in Ch15 and Ch16 binaries

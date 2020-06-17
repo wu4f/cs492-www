@@ -1,0 +1,9 @@
+We'll be doing exercises later in the quarter on Google Cloud.  For first-time users of Google Cloud, there is a $300 coupon that comes when you first sign up for the service.  It requires that you back it with a credit card, which can either be a pre-paid card with very little money on it or a regular card that you can then take away once you get the $300.  The money from the coupon expires after a year.  If you do not mind doing this, I'd like for you to sign out of your personal GMail/Google accounts (IMPORTANT!!), sign into Google with your @pdx.edu accounts, and then sign up for Google Cloud Platform to redeem the $300 coupon here:
+
+https://codelabs.developers.google.com/codelabs/cpb100-free-trial
+
+Create a project called: cs492-malware
+
+Note that if you don't sign out of your personal GMail/Google account, the coupon will be applied to that account and you won't be able to get the $300 on it any longer. After redeeming the $300 coupon, go ahead and redeem the $50 course coupon below.
+
+For those who do not wish to put up a CC number, simply use the coupon below.  Again, be sure to sign out of your personal GMail account and instead use your @pdx.edu account to redeem the coupon.
