@@ -3,3 +3,7 @@
 S*
 win*
 *.code-workspace
+Ch*
+angr*
+env
+instructor
